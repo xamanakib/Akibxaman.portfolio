@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+/* ************   ALL ************ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* *********************************Header************************************* */
+
+nav {
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    background-image: linear-gradient(to bottom, rgb(171 62 143), #313131);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    color: white;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 23px;
+    font-family: 'Akaya Telivigala', cursive;
+    animation: all .2s ease-in;
+}
+
+nav ul li:hover {
+    color: #91ff00;
+    transform: scale(.87);
+}
+
+
+/* ************************************ Home page ************************************ */
+
+#home {
+    background: linear-gradient(to right, #0000008a, #000000bf, #0000001f, #322d2d94), url('../img/fullBG.jpg') center center / cover no-repeat;
+    height: 94vh;
+    /* width: 100vw; */
+}
+
+.birthday {
+    color: #1adaf9;
+    font-size: 20px;
+    font-family: monospace;
+    width: fit-content;
+    margin-left: 16%;
+}
+
+.details {
+    border-left: 2px solid #f70505;
+    /* height: 30vh; */
+    position: absolute;
+    top: 35vh;
+    left: 8vw;
+    padding-left: 10px;
+}
+
+.details h1 {
+    text-align: center;
+    color: wheat;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bolder;
+}
+
+.details h3 {
+    width: fit-content;
+    margin: auto;
+    color: #d1c8e5;
+    font-size: 3.5vw;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    margin-top: 16px;
+    text-shadow: 2px 3px 4px #df4bb9;
+}
+
+.details p {
+    color: #d7e5dbcf;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 14px;
+    font-size: 2vw;
+}
+
+.details #mybtn {
+    width: fit-content;
+    margin: auto;
+}
+
+.details .mybtn {
+    margin: 10px auto;
+    padding: 8px 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    outline: none;
+    animation: all .2s ease-in;
+    font-family: 'Comfortaa', cursive;
+}
+
+.details .mybtn:hover {
+    transform: scale(.95)
+}
+
+
+/* ****************************** PROJECTS ************************************ */
+
+#myProjects {
+    background-color: #fbf2e4;
+    padding-bottom: 100px;
+}
+
+.container01 {
+    /* width: 55%;
+    margin: auto;
+    padding-top: 53px; */
+    width: 56%;
+    margin: auto;
+    padding-top: 53px;
+    height: 652px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.container01::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 8px;
+    border-radius: 50px;
+}
+
+.container01::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.container01 a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    width: fit-content;
+    margin: auto;
+    font-size: 41px;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 37px;
+    border-bottom: 2px solid red;
+}
+
+.websites {
+    display: inline-block;
+    height: 250px;
+    max-width: 350px;
+    padding: 9px 9px;
+    /* margin: 30px 4px; */
+}
+
+.websites img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.img {
+    width: fit-content;
+    transition: all 0.2s ease-out;
+    ;
+}
+
+.img:hover {
+    transform: scale(.96);
+}
+
+.caption {
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+/* ******************************Section skills******************************** */
+
+#skills {
+    background-color: #a5a3a5;
+    min-height: 700px;
+}
+
+
+/* ****Skills******** */
+
+.mySkills {
+    margin: auto;
+}
+
+.myContainer {
+    width: 60%;
+    background-color: #ddd;
+    margin: auto;
+    border-radius: 9px;
+}
+
+.skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 0px 0px 13px 0px;
+}
+
+#skills p {
+    color: #000000d9;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    padding: 23px;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    text-shadow: 0px -1px 1px #4be6f1;
+}
+
+.skills span {
+    float: right;
+}
+
+.html {
+    width: 90%;
+    background-color: #f44336;
+    border-radius: 9px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-align: center;
+}
+
+.css {
+    width: 90%;
+    background-color: #2196F3;
+    border-radius: 9px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-align: center;
+}
+
+.js {
+    width: 60%;
+    background-color: #e7f43698;
+    border-radius: 9px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-align: center;
+}
+
+.c {
+    width: 60%;
+    background-color: #2582bf;
+    border-radius: 9px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-align: center;
+}
+
+
+/* **************************FOOTER********************************** */
+
+footer {
+    background-color: #0a0909;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hitSp {
+    background-color: #ea5050;
+    display: inline-block;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 18px;
+}
+
+a.hitCounter.badge-done0 {
+    background-color: #ea5050;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px;
+    min-width: 90px;
+    font-size: 18px;
+    text-align: center;
+    background-image: none !important;
+    text-indent: 0 !important;
+}
+
+.footText {
+    color: #edeff7;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.top {
+    transition: all 0.2s ease-out;
+}
+
+.top:hover {
+    transform: scale(1.0);
+}
+
+.top p {
+    color: white;
+    font-size: xx-large;
+    background: red;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+}
+
+#reachMe a {
+    animation: all .2s ease-in;
+}
+
+#reachMe a:hover {
+    transform: scale(1.25);
+}

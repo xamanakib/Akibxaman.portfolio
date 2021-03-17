@@ -1,0 +1,22 @@
+.container01 {
+    width: 240px;
+    margin: auto;
+}
+
+.websites {
+    max-width: 200px;
+}
+
+.websites img {
+    max-width: 200px;
+}
+
+.top p {
+    right: 150px;
+    bottom: 70px;
+}
+
+footer {
+    height: 130px;
+    flex-direction: column;
+}
