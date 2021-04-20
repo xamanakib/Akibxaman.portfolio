@@ -294,26 +294,7 @@ footer {
     align-items: center;
 }
 
-.hitSp {
-    background-color: #ea5050;
-    display: inline-block;
-    color: #ffffff;
-    padding: 7px;
-    font-size: 18px;
-}
 
-a.hitCounter.badge-done0 {
-    background-color: #ea5050;
-    display: inline-block;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 7px;
-    min-width: 90px;
-    font-size: 18px;
-    text-align: center;
-    background-image: none !important;
-    text-indent: 0 !important;
-}
 
 .footText {
     color: #edeff7;
