@@ -17,6 +17,6 @@ header p {
 }
 
 footer {
-    height: 130px;
+    height: fit-content;
     flex-direction: column;
 }
